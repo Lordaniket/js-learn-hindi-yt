@@ -44,3 +44,33 @@ console.log(typeof myObj);
 console.log(typeof myFunction);
 
 // In general all primitive datatypes are marked with typeof as 'Objects' except function which is either 'function' or 'object-function'/
+
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// *******************************************************************************
+
+
+// 2 Types of Memory - Stack (used by Primitive Datatype) and Heap (used by Non-Primitive Datatypes)
+
+let myYTName = "PS"
+let anothername = myYTName
+anothername = "PNNEW"
+console.log(myYTName);
+console.log(anothername);
+
+let user1 = {
+    email: "user@gmail.com",
+    name: "One"
+}
+
+let user2 = user1
+
+user2.email = "PS@gamil.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
+// Stack cerates a copy
+// Heap gives reference
