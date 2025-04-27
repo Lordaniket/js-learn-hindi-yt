@@ -33,4 +33,28 @@ console.log(typeof stringNumber);
 console.log(stringNumber);
 
 
+// ***************** OPERATIONS **************************
+
+let value = 2
+let negValue = -2
+console.log(negValue)
+
+// console.log(2+3)
+// console.log(2-3);
+// console.log(2*3);
+// console.log(2/3);
+// console.log(2**3);
+// console.log(2%3);
+// console.log(3%2);
+
+
+console.log("1"+2); // 12
+console.log(1+"2"); // 12
+console.log("1"+2+2); // 122
+console.log(1+2+"2"); // 32
+
+console.loog(+true); // 1
+console.log(+""); // 0
+
+// Read prefix and postfix
 
