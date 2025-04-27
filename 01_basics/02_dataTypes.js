@@ -20,7 +20,11 @@ let isLoggedIn = false // Boolean data type
 console.log(typeof "piyush");
 console.log(typeof null);
 console.log(typeof undefined);
+// OR
 
+console.log(typeof("piyush"));
+console.log(typeof(null));
+console.log(typeof(undefined));
 
 
 
