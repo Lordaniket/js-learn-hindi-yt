@@ -4,7 +4,7 @@
 (function chai(){
     // named IIFE
     console.log(`DB CONNECTED`);
-})();
+})();   // This semi colon is important
 
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
