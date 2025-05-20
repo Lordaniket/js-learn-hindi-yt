@@ -10,7 +10,7 @@ console.log(balance.toFixed(2)); // Numbers after decimal
 const otherNumber = 23.8966
 console.log(otherNumber.toPrecision(3));
 
-const hundreds = 1000000
+const hundreds = 100000000
 console.log(hundreds.toLocaleString()); // Adds commans by default to US standard
 console.log(hundreds.toLocaleString('en-IN')); // Uses Indian Standard
 

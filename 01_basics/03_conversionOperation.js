@@ -3,6 +3,15 @@ let score = "33"
 console.log(typeof score);
 console.log(typeof(score));
 
+console.log("&&&&&");
+let sc1 = "abc"
+console.log(typeof sc1)
+let sc2 = Number(sc1)
+console.log(typeof sc2);
+console.log(sc2);
+console.log("&&&&&");
+
+
 let convertedValue = Number(score);
 console.log(typeof convertedValue);
 console.log(convertedValue);
@@ -53,8 +62,7 @@ console.log(1+"2"); // 12
 console.log("1"+2+2); // 122
 console.log(1+2+"2"); // 32
 
-console.loog(+true); // 1
+console.log(+true); // 1
 console.log(+""); // 0
 
 // Read prefix and postfix
-

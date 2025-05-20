@@ -41,5 +41,7 @@ console.log(url.includes('pk'));
 
 const gameString = "The quick brown fox jumps under the lazy dog"
 const gameStringConverted = gameString.split(' ')
+const gameSplit = gameString.split('j')
 console.log(gameStringConverted);
+console.log(gameSplit);
 console.log(typeof gameStringConverted); // object

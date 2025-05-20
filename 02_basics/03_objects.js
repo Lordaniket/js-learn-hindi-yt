@@ -6,8 +6,8 @@
 
 const mySym = Symbol("Key1")  // Need to declare before use below in object
 
-const JsUser = {           // keys are treated as strings here, i.e. name is equivalent to "name"
-    name: "Piyush",
+const JsUser = {           
+    name: "Piyush",          // keys are treated as strings here, i.e. name is equivalent to "name"
     "full name": "Piyush Singhal",   // can only be accessed via "JsUser["full name"]"
     [mySym]: "myKey1",  // Now it is a symbol, can only be accessed via "JsUser[mySym]" 
     age: 25,   // can be accessed via "JsUser.age" or "JsUser["age"]"
@@ -46,6 +46,7 @@ JsUser2.greeting = function(){
     console.log("Greetings user");
     
 }
+console.log(JsUser2);
 
 console.log(JsUser2.greeting); // only reference is shown since () are not used
 console.log(JsUser2.greeting()); // actual function is called, also an undefined is shown, idk why, maybe later will know

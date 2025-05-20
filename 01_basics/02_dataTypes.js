@@ -14,6 +14,12 @@ let isLoggedIn = false // Boolean data type
 // undefined => 
 // symbol => uniqueness
 
+let mysim1 = Symbol("mys1")
+let mysim2 = Symbol("mys1")
+console.log(mysim1===mysim2);
+console.log(typeof mysim1);
+console.log(typeof mysim2);
+
 
 // object =>
 

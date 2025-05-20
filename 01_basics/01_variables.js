@@ -17,3 +17,10 @@ Try to use 'let' more than 'var'
 Prefer not to use 'var'
 Beacause of issues in block scope and functional scope
 */
+
+{
+    var ps1 = "Piyush"
+}
+
+console.log(ps1);
+
